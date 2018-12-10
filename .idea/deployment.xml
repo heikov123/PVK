@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="IKT">
+    <serverData>
+      <paths name="IKT">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/PVK" local="$PROJECT_DIR$" web="/PVK" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
