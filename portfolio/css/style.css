@@ -1,6 +1,6 @@
 .personinfo {
     height: 100px;
-    width: 450px;
+    width: 480px;
     background-color: gray;
 
 }
@@ -12,7 +12,7 @@
 }
 
 .personinfo2 {
-    width: 450px;
+    width: 480px;
     height: 40px;
     background-color: black;
 }
@@ -26,7 +26,7 @@
 }
 
 .personNav {
-    width: 450px;
+    width: 480px;
     height: 50px;
     margin-left: 0px;
     position: relative;
@@ -40,14 +40,14 @@
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 15px;
-    width: 450px;
+    width: 480px;
     border: 1px solid gray;
     color: white;
 }
 
 .myskills {
     padding-top: 15px;
-    width: 450px;
+    width: 480px;
     border-bottom: 1px solid gray;
 }
 
@@ -61,12 +61,22 @@
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 450px;
+    width: 480px;
     border-top: 1px solid gray;
     color: white;
 }
 
 .resumeinfo {
-    width: 450px;
+    width: 480px;
+}
+
+.mywork {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 480px;
+    border-top: 1px solid gray;
+    color: white;
 }
 

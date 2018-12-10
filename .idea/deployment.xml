@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="IKT">
+  <component name="PublishConfigData" serverName="IKT" uploadOnCheckin="dc1b067c-a809-4762-84cd-a0aff8e27a1a">
     <serverData>
       <paths name="IKT">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="IKT" />
   </component>
 </project>
