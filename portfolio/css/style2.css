@@ -38,7 +38,10 @@
 	padding-bottom: 8px;
 	margin-top: 15px;
 
-
+	border: 1px solid #FFE8B7;
+	background-color: #FFE8B7;
+	border-radius: 10px;
+	margin-bottom: 15px;
 }
 
 
@@ -53,6 +56,11 @@
 .guljass {
 	border-bottom: 1px solid;
 }
+
+.guljass :hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 .friedfish {
 	border-bottom: 1px solid;
@@ -91,6 +99,7 @@
 .juice {
 	border-bottom: 1px solid;
 }
+
 
 .milk {
 	border-bottom: 1px solid;
