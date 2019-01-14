@@ -1,12 +1,81 @@
-<?php
-echo '
 <!DOCTYPE html>
 <html lang="et">
 <head>
-
+<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<title>Koolilõuna</title>
 </head>
-    <body>
+<body>
+<div class="container header">
+		<h1 class="mb-5">Tänased koolilõuna pakkumised</h1>
+	</div>
+<!-- MENU -->
+	<div class="menu">
+        <?php
+        echo '
+		<div class="maincourse">
+			<div class="guljass">	
+				<h3 class="bg-success">Praed</h3>
+				<h4>Guljašš</h4>
+				<label>2,70€</label>
+				<p>sealiha kastmes, lisand, salat, leib</p>	
+			</div>
+			<div class="friedfish">
+				<h4>Praetud kala</h4>
+				<label class="">2,70€</label>
+				<p>kala, lisand, kaste, salat, leib</p>	
+			</div>
+			<div class="halfguljass">
+				<h4>Guljašš 1/2</h4>
+				<label class="">1,45€</label>
+				<p>sealiha kastmes, lisand, salat, leib</p>	
+			</div>
+			<div class="sidedish">
+				<h4>Kartul, kaste, salat, leib</h4>
+				<label class="">1,45€</label>	
+			</div>				
+		</div>';
+		?>
+<!-- SOUPS -->
+        <?php
+        echo '
+		<div class="soups">
+			<h3 class="bg-success">Supid</h3>
+			<h4>Kana-riisisupp</h4>
+			<label>1,10€</label>
+			<p>supp, leib</p>
+		</div>
+<!-- DESSERTS -->		
+		<div class="dessert">
+			<h3 class="bg-success">Magustoidud</h3>
+			<h4>Kohupiimavorm kiselliga</h4>
+			<label>1,10€</label>
+		</div>	
+<!-- DRINKS -->		
+		<div class="drinks">
+			<div class="juice">
+				<h3 class="bg-success">Joogid</h3>
+				<h4>Mahl</h4>
+				<label>0,60€</label>
+			</div>	
+				<div class="milk">
+					<h4>Piim</h4>
+					<label>0,30€</label>
+				</div>
+			<div class="schoolmilk">
+				<h4>Koolipiim</h4>
+				<label>0,20€</label>
+			</div>
+			<div class="kefir">
+				<h4>Keefir</h4>
+				<label>0,20€</label>
+			</div>';
+        ?>
+		</div>
+	</div>
 
-    </body>
+</body>
 </html>';
-?>
